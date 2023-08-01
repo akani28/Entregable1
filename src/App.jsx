@@ -9,11 +9,16 @@ import QuoteBox from './components/QuoteBox.jsx'
 function App() {
   
   const [quote, setQuote] = useState(getRandom(quotes))
+
+  const handleChangeQuote = () =>{
+    setQuote(getRandom(quotes))
+
+  }
  
 
   return (
     <main>
-      <QuoteBox/>
+      <QuoteBox handleChangeQuote={handleChangeQuote} quote={quote}/>
     </main>
   )
 }
