@@ -13,7 +13,7 @@ const QuoteBox = ({handleChangeQuote, quote}) => {
         </p>
       </article>
       </section>
-      <footer>
+      <footer className="source">
        <h4>Source: {quote.author}</h4>
       </footer>
     </section>

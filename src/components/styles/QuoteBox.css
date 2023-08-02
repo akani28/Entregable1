@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 8rem;
 }
 
 .items{
@@ -42,3 +42,26 @@
     border-style: dashed;
     font-weight: bold;
 }
+.source{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+}
+.source:hover{
+    background-color: black;
+    color: white;
+}
+
+/* .bg_color_phrase1{
+    background-color: lightsalmon;
+}
+.bg_color_phrase2{
+    background-color:lightpink;
+}
+.bg_color_phrase3{
+    background-color:lightblue;
+}
+.bg_color_phrase4{
+    background-color:lightskyblue;
+} */

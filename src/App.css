@@ -5,13 +5,17 @@
 }
 .bg1{
     background-image: url("/public/images/image1.png");
+    transition: background-image 0.3s;
 }
 .bg2{
     background-image: url("/public/images/image2.png");
+    transition: background-image 0.3s;
 }
 .bg3{
     background-image: url("/public/images/image3.png");
+    transition: background-image 0.3s;
 }
 .bg4{
     background-image: url("/public/images/image4.png");
+    transition: background-image 0.3s;
 }
