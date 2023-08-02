@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <main className={`App ${currentBg}` }>
-      <QuoteBox handleChangeQuote={handleChangeQuote} quote={quote}/>
+      <QuoteBox handleChangeQuote={handleChangeQuote} quote={quote} currentBg={currentBg}/>
     </main>
   )
 }
