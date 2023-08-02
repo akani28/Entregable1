@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/QuoteBox.css"
 
 const QuoteBox = ({handleChangeQuote, quote}) => {
   return (
