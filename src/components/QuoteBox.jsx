@@ -3,12 +3,12 @@ import "./styles/QuoteBox.css"
 
 const QuoteBox = ({handleChangeQuote, quote}) => {
   return (
-    <section>
+    <section className="content">
       <h1>Fortune Cookies</h1>
-      <section>
-      <button onClick={handleChangeQuote}>Try Luck</button>
+      <section className="items">
+      <button className="btn" onClick={handleChangeQuote}>Try Luck</button>
       <article>
-        <p>
+        <p className="content_phrase">
           {quote.phrase}
         </p>
       </article>
